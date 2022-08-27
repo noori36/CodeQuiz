@@ -1,6 +1,10 @@
-# 04 Web APIs: Code Quiz
+# Web APIs: Code Quiz
 
 This app is a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. It has a timed code quiz that's made up of multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+
+## Authors
+
+- [NoreenA](https://github.com/noori36)
 
 ## User Story
 
@@ -10,7 +14,7 @@ I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
 
-## Development
+## Development Criteria
 
 ```
 GIVEN I am taking a code quiz
@@ -29,8 +33,26 @@ THEN I can save my initials and score
 
 ### Link
 
-You are required to submit the following for review:
+[The URL of the functional, deployed application.](https://noori36.github.io/PasswordGenerator/)
 
-* The URL of the functional, deployed application.
+[The URL of the GitHub repository.](https://github.com/noori36/PasswordGenerator)
+ 
+## Deployment
 
-* The URL of the GitHub repository. 
+Upload index.html and assets folder to the deployed webserver. The assets folder contains images, JS and CSS files.<br />
+
+Once deployed the application can be viewed in a traditional desktop web browser. <br />
+
+    
+## Demo
+confirm password lenght
+<br><img src="./Assets/images/Confirm-passlength.png" alt="screenshot of alert to confirm password lenght" width="550"/>
+<br>confirm Uppercase
+<br><img src="./Assets/images/Confirm-Uppercase.png" alt="screenshot of alert to confirm Uppercase letter" width="550"/>
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
