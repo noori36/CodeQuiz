@@ -45,11 +45,16 @@ Once deployed the application can be viewed in a traditional desktop web browser
 
     
 ## Demo
-<br><img src="./Assets/images/ScreenShot1.png" alt="start quiz" width="550"/>
+Home page
+<br><img src="./Assets/images/ScreenShot1.png" alt="Home page" width="550"/>
+<br>Start Quiz
 <br><img src="./Assets/images/ScreenShot2.png" alt="start quiz" width="550"/>
-<br><img src="./Assets/images/Screen Shot.png" alt="start quiz" width="550"/>
-<br><img src="./Assets/images/ScreenShot3.png" alt="start quiz" width="550"/>
-<br><img src="./Assets/images/ScreenShot4.png" alt="start quiz" width="550"/>
+<br>End Quiz
+<br><img src="./Assets/images/Screen Shot.png" alt="End Quiz" width="550"/>
+<br>Submit Initals and save scores
+<br><img src="./Assets/images/ScreenShot3.png" alt="sSubmit Initals and save scores" width="550"/>
+<br>Clear scores
+<br><img src="./Assets/images/ScreenShot4.png" alt="Clear scores" width="550"/>
 
 
 ## License
