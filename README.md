@@ -33,9 +33,9 @@ THEN I can save my initials and score
 
 ### Link
 
-[The URL of the functional, deployed application.](https://noori36.github.io/PasswordGenerator/)
+[The URL of the functional, deployed application.](https://noori36.github.io/CodeQuiz/)
 
-[The URL of the GitHub repository.](https://github.com/noori36/PasswordGenerator)
+[The URL of the GitHub repository.](https://github.com/noori36/CodeQuiz)
  
 ## Deployment
 
