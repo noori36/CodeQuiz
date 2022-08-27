@@ -1,0 +1,107 @@
+* {
+    margin: 555;
+    padding: 555;
+    box-sizing: border-box;
+}
+
+
+.hide {
+    display: none;
+}
+
+body {
+
+    background-color: white;
+
+}
+
+h1 {
+    color: black;
+}
+
+#whole-quiz-body,
+#end-quiz {
+    margin: 0 auto;
+    width: 250px;
+    align-items: center;
+}
+
+#startQuizBtn {
+    font-size: 20px;
+    margin-top: 20 px;
+    display: inline-block;
+}
+
+#answers {
+    align-items: center;
+
+}
+
+button {
+    width: auto;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(70, 17, 103, 0.986);
+    display: white;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#quiz-title {
+    align-items: center;
+}
+#scoresBTN button {
+
+    display: inline-block;
+}
+
+#answers>button:nth-child(1) {
+    display: flex;
+}
+
+#initials {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#submitBtn {
+    margin: 0 auto;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+a {
+    color: rgba(41, 2, 66, 0.986);
+    float: right;
+
+}
+
+a:hover {
+    color: rgba(117, 36, 168, 0.986);
+}
+
+.timer {
+    float: right;
+    position: absolute;
+    top: 10px;
+
+}
+
+.start {
+    text-align: center;
+}
+
+.HS-container {
+    margin: 0 auto;
+    width: 350px;
+    align-items: center;
+
+}
+#btnBack, #btnClear  {
+    font-size: 16px;
+    display: inline-block;
+}

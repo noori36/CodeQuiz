@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./Assets/css/styles.css" />
+</head>
+
+<body>
+    <div class="row">
+        <div class="scores">
+            <h4 id="highscores">
+                <a href="highscores.html" class="view_scores" style="text-decoration: none;">View High Scores</a>
+            </h4>
+        </div>
+        <div class="time">
+            <h4 id="timer" style="color: rgba(41, 2, 66, 0.986);">Time: 80</h4>
+        </div>
+    </div>
+    <div class="container">
+
+        <!-- quiz start -->
+        <section id="startQuiz" class="text-center">
+            <div class="row">
+                <br>
+                <div id="start-quiz-window" class="start">
+                    <h1>Coding Quiz Challenge</h1>
+                    <p id="qTitle" class="text-justify p-3 m-3">Try to answer the following code-related questions
+                        within the time limit. Keep in mind that incorrect answers will minus your score/time by 10 seconds! 
+                    </p>
+
+                    <div id="StartQuiz" class="d-none">
+                        <button id="startQuizBtn">Start Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- quiz body -->
+        <section id="whole-quiz-body">
+
+            <div id="quiz-body" class="hide">
+                <h3 id="quiz-title"></h3>
+                <ul id="answers" class="answers"></ul>
+
+            </div>
+
+            <div class="row p-1">
+                <div class="col-6">
+                    <p id="check-answer"></p>
+                </div>
+            </div>
+            
+            <!-- quiz answer results  -->
+            <div id="result" class="result hide"></div>
+    </div>
+    </section>
+
+    <!-- final score -->
+    <section id="end-quiz" class="hide">
+        <div class="row p-1">
+            <div class="input-group">
+                <h2>End of Quiz!</h2>
+                <p>Your final score is <span id="final-score"></span></p>
+                <label for="YourInitials">Enter initials:</label>
+                <input type="text" name="name" id="initials" placeholder="J.D." />
+                <button type="submit" class="btn btn-primary btn-sm" id="submitBtn"
+                    onclick="saveHighScore()">Submit</button>
+            </div>
+        </div>
+    </section>
+    </section>
+
+
+    <script src="./Assets/js/script.js"></script>
+</body>
+
+</html>
